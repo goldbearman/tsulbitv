@@ -11,3 +11,8 @@ export interface IUser {
     address: IAddress;
 
 }
+export interface IToDo {
+    "id": number,
+    "title": string,
+    "completed": boolean
+}
